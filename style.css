@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+main{
+    display: flex;
+    width: 90%;
+}
+.logo{
+    margin: 50px;
+    position: relative;
+    left: 100px;
+}
+.section1{
+    flex-basis: 60%;
+}
+
+textarea{
+    position: relative;
+    text-align: center;
+    outline: none;
+    resize: none;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.inputText{
+    left: 30%;
+    width: 70%;
+    height: 300px;
+   
+}
+
+.inputTextArea{
+    background-size: 300px;
+    background-color: white;
+    left: 45%;
+    width: 100%;
+    height: 90%;
+}
+
+#nme{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+#ited{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+h6{
+    position: relative;
+    left: 30%;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+    position: relative;
+    bottom: 60px;
+}
+
+.copiar{
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    width: 320px;
+    height: 67px;
+    position: relative;
+    bottom: 25%;
+    left: 68%;
+    transition: 1.5s;
+}
+.copiar:hover{
+    cursor: pointer;
+    background-color: midnightblue;
+}
+
+.botones{
+    display: inline-block;
+    margin: 10px;
+    padding: 30px;
+    position: relative;
+    left: 35%;
+    bottom: 3%;
+}
+.Encriptar{
+    display: inline-block;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    width: 320px;
+    height: 67px;
+    position: relative;
+    right: 10px;
+
+}
+.Encriptar:hover{
+    cursor: pointer;
+}
+.Decencriptar{
+    display: inline-block;
+    background-color: #0A3871;
+    border-radius: 24px;
+    color: white;
+    width: 320px;
+    height: 67px;
+    position: relative;
+    left: 10px;
+}
+.Decencriptar:hover{
+    cursor: pointer;
+}
+
+#mensajesNoEncontrados{
+    visibility: hidden;
+}
+.mensajes{
+    background: none;
+    position: relative;
+    bottom: 250px;
+    right: 40%;
+    text-align: center;
+}
+
+.NoEncontrado{
+    color: red;
+    position: relative;
+    bottom: 220px;
+}
+
+
+@media screen and (max-width: 480px) {
+    main {
+      flex-direction: column;
+    }
+    #section1 {
+      flex-basis: 60%;
+    }
+    .inputText {
+      left: 17%;
+      height: 320px;
+    }
+    h1 {
+      position: relative;
+      left: 2%;
+      bottom: 19%;
+    }
+
+    .Encriptar{
+        position: relative;
+        right: 110px;
+        bottom: 40px;
+    }
+    .Decencriptar{
+        position: relative;
+        left: -110px;
+        bottom: 10px;
+    }
+    .inputTextArea {
+      background-image: none;
+      top: 20px;
+      left: 10%;
+      width: 80%;
+      height: 100px;
+    }
+    .copiar {
+        position: relative;
+        left: 50px;
+        bottom: -30px;
+    }
+    .mensajes {
+      background: none;
+      position: relative;
+      bottom: 120px;
+      right: 100px
+    }
+  }
